@@ -9,13 +9,12 @@ import seaborn as sns
 import torch
 from sklearn.preprocessing import MinMaxScaler, StandardScaler
 
-from FEMxEPxML.utils_constitutive import tensor2voigt
-from FEMxML.rnn_liverpool_research_assistant.rnn_model import rnn_net_4_constitutive, \
+from cons.utils_constitutive import tensor2voigt
+from rnn_model import rnn_net_4_constitutive, \
     rnn_net_4_constitutive_fixed_sig_general
-from FEMxML.rnn_liverpool_research_assistant.utils_rnn_cons import get_q_2d_arr
-from FEMxML.utils_ml import findDevice, splitTrainValidation
-from GaussianProcess.load_npy import load_npy
-from utilSelf.general import check_mkdir, writeLine, echo
+from utilSelf.utils_rnn_cons import get_q_2d_arr
+from utilSelf.utils_ml import findDevice, splitTrainValidation
+from utilSelf.general import check_mkdir, writeLine, echo, load_npy
 
 
 def main(

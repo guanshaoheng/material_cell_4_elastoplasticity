@@ -255,3 +255,11 @@ def is_debug():
             return False
         else:
             return True
+
+
+
+def load_npy(file_name = 'mises_results_4.npy'):
+    num_data = int(os.path.split(file_name)[-1].split('_')[-1].split('.')[0])
+    with open(file_name, mode='rb') as f:
+        temp = [np.load(f) for _ in range(num_data)]
+    return temp

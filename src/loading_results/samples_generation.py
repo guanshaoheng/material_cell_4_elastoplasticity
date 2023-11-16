@@ -2,7 +2,7 @@
 import os
 import matplotlib.pyplot as plt
 import numpy as np
-from FEMxEPxML.utils_constitutive import voigt_2_tensor_high, get_q_2d
+from cons.utils_constitutive import voigt_2_tensor_high
 from utilSelf.general import check_mkdir, echo
 from figs.plot_train_samples import plot_samples
 
@@ -11,13 +11,13 @@ class samplesGenerator:
     def __init__(self, strain_file_path, mode):
         self.mode = mode
         if mode == 'misesideal':
-            from FEMxEPxML.vonmisesConsIdeal import vonmisesIdealSingle
+            from cons.vonmisesConsIdeal import vonmisesIdealSingle
             self.cons = vonmisesIdealSingle(p0=0., nu=0.2, E=2e6, yield_stress0=1e5)
         elif mode == 'drucker':
-            from FEMxEPxML.DruckerPragerCons import druckerPragerSingle
+            from cons.DruckerPragerCons import druckerPragerSingle
             self.cons = druckerPragerSingle()
         elif mode == 'mises_harden':
-            from FEMxEPxML.vonMisesConsHarden import MisesHardenSingle
+            from cons.vonMisesConsHarden import MisesHardenSingle
             self.cons = MisesHardenSingle(p0=0., nu=0.2, E=2e6)
         else:
             print('%s is not included' % mode)
@@ -69,13 +69,10 @@ class samplesGenerator:
         :param args: every of them should be in shape of  (numg, step, features)
         :return:
         '''
-        save_path = os.path.join(os.getcwd(), 'loading_results')
+        save_path = self.mode
         check_mkdir(save_path)
-        if self.mode != 'misesideal':
-            save_path = os.path.join(save_path, self.mode)
-            check_mkdir(save_path)
         echo("file saved in %s" % save_path)
-        file_name = os.path.join(save_path, 'mises_results_numSamples%d_multiprocess_%d.npy' % (num_samples, len(args)))
+        file_name = os.path.join(save_path, 'numSamples%d_multiprocess_%d.npy' % (num_samples, len(args)))
         with open(file_name, mode='wb') as f:
             for i in args:
                 np.save(f, i)
@@ -83,11 +80,11 @@ class samplesGenerator:
 
 
 if __name__ == '__main__':
-    num_samples = 201
-    mode = 'misesideal'   # misesideal drucker mises_harden
+    num_samples = 201  # 999
+    mode = 'misesideal'   # misesideal drucker mises_harden   three constitutives
     samples_gen = samplesGenerator(
         strain_file_path='random_strain_path/paths_%d.npy' % num_samples,
         mode=mode)
-    datasets = samples_gen.load()
-    samples_gen.save2npy(num_samples, samples_gen.strain_paths_tensor, *datasets)
+    datasets = samples_gen.load()  # Loading Sample Preparation
+    samples_gen.save2npy(num_samples, samples_gen.strain_paths_tensor, *datasets)  # save data
     print()
