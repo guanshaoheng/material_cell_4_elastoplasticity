@@ -1,0 +1,175 @@
+---------------------------------------------------- 
+	 num of samples:                    20 
+	 num of steps:                      200 
+	 num of inputs:                     3 
+	 num of outputs:                    3 
+	 num of GRU hidden layers:          2 
+	 num of GRU hidden size:            30 
+	 bacth size:                        1024 
+	 max number of bacthes per epoch:   80 
+	 save dir:                          /home/tongming/fem-ml-dem/FEMxML/rnn_liverpool_research_assistant/rnn_j2_numSamples20_NNclassic_deps_sig_lc1.0_len200 
+
+			The number of layers in the model: 10
+
+			The number of learnable parameters in the model: 8823
+
+Epoch [10/10000000], Step [1/0], train_loss: 4.6270e-01	valid_loss: 3.8513e-01	min_Loss: 3.8513e-01	consumued_time: 3.1470e-02(mins)	Improved!
+Epoch [20/10000000], Step [1/0], train_loss: 2.0045e-01	valid_loss: 1.8354e-01	min_Loss: 1.8354e-01	consumued_time: 3.2088e-02(mins)	Improved!
+Epoch [30/10000000], Step [1/0], train_loss: 1.6349e-01	valid_loss: 1.1180e-01	min_Loss: 1.1180e-01	consumued_time: 3.2745e-02(mins)	Improved!
+Epoch [40/10000000], Step [1/0], train_loss: 1.4902e-01	valid_loss: 1.1137e-01	min_Loss: 1.1137e-01	consumued_time: 3.3374e-02(mins)	Improved!
+Epoch [50/10000000], Step [1/0], train_loss: 1.3853e-01	valid_loss: 1.1679e-01	min_Loss: 1.1137e-01	consumued_time: 3.3970e-02(mins)	No imp. in 10 epochs
+Epoch [60/10000000], Step [1/0], train_loss: 1.3587e-01	valid_loss: 1.1441e-01	min_Loss: 1.1137e-01	consumued_time: 3.4561e-02(mins)	No imp. in 20 epochs
+Epoch [70/10000000], Step [1/0], train_loss: 1.3209e-01	valid_loss: 1.0924e-01	min_Loss: 1.0924e-01	consumued_time: 3.5194e-02(mins)	Improved!
+Epoch [80/10000000], Step [1/0], train_loss: 1.2959e-01	valid_loss: 1.0838e-01	min_Loss: 1.0838e-01	consumued_time: 3.5811e-02(mins)	Improved!
+Epoch [90/10000000], Step [1/0], train_loss: 1.2710e-01	valid_loss: 1.0885e-01	min_Loss: 1.0838e-01	consumued_time: 3.6409e-02(mins)	No imp. in 10 epochs
+Epoch [100/10000000], Step [1/0], train_loss: 1.2471e-01	valid_loss: 1.0894e-01	min_Loss: 1.0838e-01	consumued_time: 3.7007e-02(mins)	No imp. in 20 epochs
+Epoch [110/10000000], Step [1/0], train_loss: 1.2221e-01	valid_loss: 1.0793e-01	min_Loss: 1.0793e-01	consumued_time: 3.7626e-02(mins)	Improved!
+Epoch [120/10000000], Step [1/0], train_loss: 1.1954e-01	valid_loss: 1.0754e-01	min_Loss: 1.0754e-01	consumued_time: 3.8239e-02(mins)	Improved!
+Epoch [130/10000000], Step [1/0], train_loss: 1.1654e-01	valid_loss: 1.0751e-01	min_Loss: 1.0751e-01	consumued_time: 3.8858e-02(mins)	Improved!
+Epoch [140/10000000], Step [1/0], train_loss: 1.1302e-01	valid_loss: 1.0721e-01	min_Loss: 1.0721e-01	consumued_time: 3.9478e-02(mins)	Improved!
+Epoch [150/10000000], Step [1/0], train_loss: 1.0870e-01	valid_loss: 1.0693e-01	min_Loss: 1.0693e-01	consumued_time: 4.0095e-02(mins)	Improved!
+Epoch [160/10000000], Step [1/0], train_loss: 1.0316e-01	valid_loss: 1.0669e-01	min_Loss: 1.0669e-01	consumued_time: 4.0716e-02(mins)	Improved!
+Epoch [170/10000000], Step [1/0], train_loss: 9.5933e-02	valid_loss: 1.0630e-01	min_Loss: 1.0630e-01	consumued_time: 4.1343e-02(mins)	Improved!
+Epoch [180/10000000], Step [1/0], train_loss: 8.6726e-02	valid_loss: 1.0548e-01	min_Loss: 1.0548e-01	consumued_time: 4.1962e-02(mins)	Improved!
+Epoch [190/10000000], Step [1/0], train_loss: 7.5906e-02	valid_loss: 1.0404e-01	min_Loss: 1.0404e-01	consumued_time: 4.2563e-02(mins)	Improved!
+Epoch [200/10000000], Step [1/0], train_loss: 6.4857e-02	valid_loss: 1.0246e-01	min_Loss: 1.0246e-01	consumued_time: 4.3164e-02(mins)	Improved!
+Epoch [210/10000000], Step [1/0], train_loss: 5.5393e-02	valid_loss: 1.0269e-01	min_Loss: 1.0246e-01	consumued_time: 4.3741e-02(mins)	No imp. in 10 epochs
+Epoch [220/10000000], Step [1/0], train_loss: 4.8099e-02	valid_loss: 1.0626e-01	min_Loss: 1.0246e-01	consumued_time: 4.4313e-02(mins)	No imp. in 20 epochs
+Epoch [230/10000000], Step [1/0], train_loss: 4.2339e-02	valid_loss: 1.1060e-01	min_Loss: 1.0246e-01	consumued_time: 4.4888e-02(mins)	No imp. in 30 epochs
+Epoch [240/10000000], Step [1/0], train_loss: 3.7795e-02	valid_loss: 1.1303e-01	min_Loss: 1.0246e-01	consumued_time: 4.5515e-02(mins)	No imp. in 40 epochs
+Epoch [250/10000000], Step [1/0], train_loss: 3.4152e-02	valid_loss: 1.1514e-01	min_Loss: 1.0246e-01	consumued_time: 4.6088e-02(mins)	No imp. in 50 epochs
+Epoch [260/10000000], Step [1/0], train_loss: 3.1179e-02	valid_loss: 1.1739e-01	min_Loss: 1.0246e-01	consumued_time: 4.6656e-02(mins)	No imp. in 60 epochs
+Epoch [270/10000000], Step [1/0], train_loss: 2.8719e-02	valid_loss: 1.1891e-01	min_Loss: 1.0246e-01	consumued_time: 4.7224e-02(mins)	No imp. in 70 epochs
+Epoch [280/10000000], Step [1/0], train_loss: 2.6605e-02	valid_loss: 1.1970e-01	min_Loss: 1.0246e-01	consumued_time: 4.7796e-02(mins)	No imp. in 80 epochs
+Epoch [290/10000000], Step [1/0], train_loss: 2.4703e-02	valid_loss: 1.2034e-01	min_Loss: 1.0246e-01	consumued_time: 4.8367e-02(mins)	No imp. in 90 epochs
+Epoch [300/10000000], Step [1/0], train_loss: 2.2972e-02	valid_loss: 1.2100e-01	min_Loss: 1.0246e-01	consumued_time: 4.8945e-02(mins)	No imp. in 100 epochs
+Epoch [310/10000000], Step [1/0], train_loss: 2.1416e-02	valid_loss: 1.2157e-01	min_Loss: 1.0246e-01	consumued_time: 4.9638e-02(mins)	No imp. in 110 epochs
+Epoch [320/10000000], Step [1/0], train_loss: 2.0014e-02	valid_loss: 1.2153e-01	min_Loss: 1.0246e-01	consumued_time: 5.0285e-02(mins)	No imp. in 120 epochs
+Epoch [330/10000000], Step [1/0], train_loss: 1.8734e-02	valid_loss: 1.2033e-01	min_Loss: 1.0246e-01	consumued_time: 5.0876e-02(mins)	No imp. in 130 epochs
+Epoch [340/10000000], Step [1/0], train_loss: 1.7553e-02	valid_loss: 1.1817e-01	min_Loss: 1.0246e-01	consumued_time: 5.1465e-02(mins)	No imp. in 140 epochs
+Epoch [350/10000000], Step [1/0], train_loss: 1.6453e-02	valid_loss: 1.1557e-01	min_Loss: 1.0246e-01	consumued_time: 5.2076e-02(mins)	No imp. in 150 epochs
+Epoch [360/10000000], Step [1/0], train_loss: 1.5417e-02	valid_loss: 1.1282e-01	min_Loss: 1.0246e-01	consumued_time: 5.2686e-02(mins)	No imp. in 160 epochs
+Epoch [370/10000000], Step [1/0], train_loss: 1.4435e-02	valid_loss: 1.1008e-01	min_Loss: 1.0246e-01	consumued_time: 5.3280e-02(mins)	No imp. in 170 epochs
+Epoch [380/10000000], Step [1/0], train_loss: 1.3505e-02	valid_loss: 1.0740e-01	min_Loss: 1.0246e-01	consumued_time: 5.3882e-02(mins)	No imp. in 180 epochs
+Epoch [390/10000000], Step [1/0], train_loss: 1.2627e-02	valid_loss: 1.0480e-01	min_Loss: 1.0246e-01	consumued_time: 5.4481e-02(mins)	No imp. in 190 epochs
+Epoch [400/10000000], Step [1/0], train_loss: 1.1797e-02	valid_loss: 1.0230e-01	min_Loss: 1.0230e-01	consumued_time: 5.5102e-02(mins)	Improved!
+Epoch [410/10000000], Step [1/0], train_loss: 1.1014e-02	valid_loss: 9.9852e-02	min_Loss: 9.9852e-02	consumued_time: 5.5715e-02(mins)	Improved!
+Epoch [420/10000000], Step [1/0], train_loss: 1.0275e-02	valid_loss: 9.7505e-02	min_Loss: 9.7505e-02	consumued_time: 5.6343e-02(mins)	Improved!
+Epoch [430/10000000], Step [1/0], train_loss: 9.5809e-03	valid_loss: 9.5380e-02	min_Loss: 9.5380e-02	consumued_time: 5.6973e-02(mins)	Improved!
+Epoch [440/10000000], Step [1/0], train_loss: 8.9280e-03	valid_loss: 9.3604e-02	min_Loss: 9.3604e-02	consumued_time: 5.7595e-02(mins)	Improved!
+Epoch [450/10000000], Step [1/0], train_loss: 8.3155e-03	valid_loss: 9.2254e-02	min_Loss: 9.2254e-02	consumued_time: 5.8210e-02(mins)	Improved!
+Epoch [460/10000000], Step [1/0], train_loss: 7.7438e-03	valid_loss: 9.1359e-02	min_Loss: 9.1359e-02	consumued_time: 5.8829e-02(mins)	Improved!
+Epoch [470/10000000], Step [1/0], train_loss: 7.2140e-03	valid_loss: 9.0886e-02	min_Loss: 9.0886e-02	consumued_time: 5.9463e-02(mins)	Improved!
+Epoch [480/10000000], Step [1/0], train_loss: 6.7266e-03	valid_loss: 9.0753e-02	min_Loss: 9.0753e-02	consumued_time: 6.0080e-02(mins)	Improved!
+Epoch [490/10000000], Step [1/0], train_loss: 6.2809e-03	valid_loss: 9.0856e-02	min_Loss: 9.0753e-02	consumued_time: 6.0668e-02(mins)	No imp. in 10 epochs
+Epoch [500/10000000], Step [1/0], train_loss: 5.8754e-03	valid_loss: 9.1079e-02	min_Loss: 9.0753e-02	consumued_time: 6.1275e-02(mins)	No imp. in 20 epochs
+Epoch [510/10000000], Step [1/0], train_loss: 5.5081e-03	valid_loss: 9.1318e-02	min_Loss: 9.0753e-02	consumued_time: 6.1863e-02(mins)	No imp. in 30 epochs
+Epoch [520/10000000], Step [1/0], train_loss: 5.1767e-03	valid_loss: 9.1492e-02	min_Loss: 9.0753e-02	consumued_time: 6.2504e-02(mins)	No imp. in 40 epochs
+Epoch [530/10000000], Step [1/0], train_loss: 4.8791e-03	valid_loss: 9.1560e-02	min_Loss: 9.0753e-02	consumued_time: 6.3099e-02(mins)	No imp. in 50 epochs
+Epoch [540/10000000], Step [1/0], train_loss: 4.6126e-03	valid_loss: 9.1542e-02	min_Loss: 9.0753e-02	consumued_time: 6.3688e-02(mins)	No imp. in 60 epochs
+Epoch [550/10000000], Step [1/0], train_loss: 4.6417e-03	valid_loss: 9.1481e-02	min_Loss: 9.0753e-02	consumued_time: 6.4290e-02(mins)	No imp. in 70 epochs
+Epoch [560/10000000], Step [1/0], train_loss: 4.2553e-03	valid_loss: 9.0765e-02	min_Loss: 9.0753e-02	consumued_time: 6.4880e-02(mins)	No imp. in 80 epochs
+Epoch [570/10000000], Step [1/0], train_loss: 3.9934e-03	valid_loss: 9.0762e-02	min_Loss: 9.0753e-02	consumued_time: 6.5474e-02(mins)	No imp. in 90 epochs
+Epoch [580/10000000], Step [1/0], train_loss: 3.8305e-03	valid_loss: 9.0395e-02	min_Loss: 9.0395e-02	consumued_time: 6.6145e-02(mins)	Improved!
+Epoch [590/10000000], Step [1/0], train_loss: 3.6792e-03	valid_loss: 9.0297e-02	min_Loss: 9.0297e-02	consumued_time: 6.6757e-02(mins)	Improved!
+Epoch [600/10000000], Step [1/0], train_loss: 3.5348e-03	valid_loss: 9.0234e-02	min_Loss: 9.0234e-02	consumued_time: 6.7392e-02(mins)	Improved!
+Epoch [610/10000000], Step [1/0], train_loss: 3.4053e-03	valid_loss: 9.0240e-02	min_Loss: 9.0234e-02	consumued_time: 6.7982e-02(mins)	No imp. in 10 epochs
+Epoch [620/10000000], Step [1/0], train_loss: 3.2858e-03	valid_loss: 9.0332e-02	min_Loss: 9.0234e-02	consumued_time: 6.8578e-02(mins)	No imp. in 20 epochs
+Epoch [630/10000000], Step [1/0], train_loss: 3.1745e-03	valid_loss: 9.0525e-02	min_Loss: 9.0234e-02	consumued_time: 6.9192e-02(mins)	No imp. in 30 epochs
+Epoch [640/10000000], Step [1/0], train_loss: 3.0707e-03	valid_loss: 9.0829e-02	min_Loss: 9.0234e-02	consumued_time: 6.9781e-02(mins)	No imp. in 40 epochs
+Epoch [650/10000000], Step [1/0], train_loss: 2.9735e-03	valid_loss: 9.1218e-02	min_Loss: 9.0234e-02	consumued_time: 7.0352e-02(mins)	No imp. in 50 epochs
+Epoch [660/10000000], Step [1/0], train_loss: 2.8822e-03	valid_loss: 9.1728e-02	min_Loss: 9.0234e-02	consumued_time: 7.0922e-02(mins)	No imp. in 60 epochs
+Epoch [670/10000000], Step [1/0], train_loss: 2.7962e-03	valid_loss: 9.2326e-02	min_Loss: 9.0234e-02	consumued_time: 7.1496e-02(mins)	No imp. in 70 epochs
+Epoch [680/10000000], Step [1/0], train_loss: 2.7152e-03	valid_loss: 9.3000e-02	min_Loss: 9.0234e-02	consumued_time: 7.2078e-02(mins)	No imp. in 80 epochs
+Epoch [690/10000000], Step [1/0], train_loss: 2.6833e-03	valid_loss: 9.3221e-02	min_Loss: 9.0234e-02	consumued_time: 7.2648e-02(mins)	No imp. in 90 epochs
+Epoch [700/10000000], Step [1/0], train_loss: 2.7655e-03	valid_loss: 9.5971e-02	min_Loss: 9.0234e-02	consumued_time: 7.3238e-02(mins)	No imp. in 100 epochs
+Epoch [710/10000000], Step [1/0], train_loss: 2.6124e-03	valid_loss: 9.5699e-02	min_Loss: 9.0234e-02	consumued_time: 7.3811e-02(mins)	No imp. in 110 epochs
+Epoch [720/10000000], Step [1/0], train_loss: 2.4635e-03	valid_loss: 9.5954e-02	min_Loss: 9.0234e-02	consumued_time: 7.4429e-02(mins)	No imp. in 120 epochs
+Epoch [730/10000000], Step [1/0], train_loss: 2.3833e-03	valid_loss: 9.6888e-02	min_Loss: 9.0234e-02	consumued_time: 7.4997e-02(mins)	No imp. in 130 epochs
+Epoch [740/10000000], Step [1/0], train_loss: 2.3262e-03	valid_loss: 9.8054e-02	min_Loss: 9.0234e-02	consumued_time: 7.5562e-02(mins)	No imp. in 140 epochs
+Epoch [750/10000000], Step [1/0], train_loss: 2.2722e-03	valid_loss: 9.9262e-02	min_Loss: 9.0234e-02	consumued_time: 7.6129e-02(mins)	No imp. in 150 epochs
+Epoch [760/10000000], Step [1/0], train_loss: 2.2209e-03	valid_loss: 1.0046e-01	min_Loss: 9.0234e-02	consumued_time: 7.6700e-02(mins)	No imp. in 160 epochs
+Epoch [770/10000000], Step [1/0], train_loss: 2.1706e-03	valid_loss: 1.0160e-01	min_Loss: 9.0234e-02	consumued_time: 7.7302e-02(mins)	No imp. in 170 epochs
+Epoch [780/10000000], Step [1/0], train_loss: 2.1228e-03	valid_loss: 1.0265e-01	min_Loss: 9.0234e-02	consumued_time: 7.7904e-02(mins)	No imp. in 180 epochs
+Epoch [790/10000000], Step [1/0], train_loss: 2.0768e-03	valid_loss: 1.0389e-01	min_Loss: 9.0234e-02	consumued_time: 7.8488e-02(mins)	No imp. in 190 epochs
+Epoch [800/10000000], Step [1/0], train_loss: 2.0324e-03	valid_loss: 1.0505e-01	min_Loss: 9.0234e-02	consumued_time: 7.9072e-02(mins)	No imp. in 200 epochs
+Epoch [810/10000000], Step [1/0], train_loss: 1.9897e-03	valid_loss: 1.0625e-01	min_Loss: 9.0234e-02	consumued_time: 7.9655e-02(mins)	No imp. in 210 epochs
+Epoch [820/10000000], Step [1/0], train_loss: 1.9558e-03	valid_loss: 1.0702e-01	min_Loss: 9.0234e-02	consumued_time: 8.0285e-02(mins)	No imp. in 220 epochs
+Epoch [830/10000000], Step [1/0], train_loss: 2.6451e-03	valid_loss: 1.0553e-01	min_Loss: 9.0234e-02	consumued_time: 8.0902e-02(mins)	No imp. in 230 epochs
+Epoch [840/10000000], Step [1/0], train_loss: 2.0722e-03	valid_loss: 1.0711e-01	min_Loss: 9.0234e-02	consumued_time: 8.1490e-02(mins)	No imp. in 240 epochs
+Epoch [850/10000000], Step [1/0], train_loss: 1.9104e-03	valid_loss: 1.0937e-01	min_Loss: 9.0234e-02	consumued_time: 8.2075e-02(mins)	No imp. in 250 epochs
+Epoch [860/10000000], Step [1/0], train_loss: 1.8215e-03	valid_loss: 1.1154e-01	min_Loss: 9.0234e-02	consumued_time: 8.2688e-02(mins)	No imp. in 260 epochs
+Epoch [870/10000000], Step [1/0], train_loss: 1.7763e-03	valid_loss: 1.1312e-01	min_Loss: 9.0234e-02	consumued_time: 8.3279e-02(mins)	No imp. in 270 epochs
+Epoch [880/10000000], Step [1/0], train_loss: 1.7418e-03	valid_loss: 1.1436e-01	min_Loss: 9.0234e-02	consumued_time: 8.3874e-02(mins)	No imp. in 280 epochs
+Epoch [890/10000000], Step [1/0], train_loss: 1.7086e-03	valid_loss: 1.1554e-01	min_Loss: 9.0234e-02	consumued_time: 8.4463e-02(mins)	No imp. in 290 epochs
+Epoch [900/10000000], Step [1/0], train_loss: 1.6763e-03	valid_loss: 1.1687e-01	min_Loss: 9.0234e-02	consumued_time: 8.5052e-02(mins)	No imp. in 300 epochs
+Epoch [910/10000000], Step [1/0], train_loss: 1.6466e-03	valid_loss: 1.1822e-01	min_Loss: 9.0234e-02	consumued_time: 8.5653e-02(mins)	No imp. in 310 epochs
+Epoch [920/10000000], Step [1/0], train_loss: 1.6173e-03	valid_loss: 1.1922e-01	min_Loss: 9.0234e-02	consumued_time: 8.6243e-02(mins)	No imp. in 320 epochs
+Epoch [930/10000000], Step [1/0], train_loss: 1.5890e-03	valid_loss: 1.2042e-01	min_Loss: 9.0234e-02	consumued_time: 8.6831e-02(mins)	No imp. in 330 epochs
+Epoch [940/10000000], Step [1/0], train_loss: 1.5614e-03	valid_loss: 1.2143e-01	min_Loss: 9.0234e-02	consumued_time: 8.7417e-02(mins)	No imp. in 340 epochs
+Epoch [950/10000000], Step [1/0], train_loss: 1.5347e-03	valid_loss: 1.2239e-01	min_Loss: 9.0234e-02	consumued_time: 8.8000e-02(mins)	No imp. in 350 epochs
+Epoch [960/10000000], Step [1/0], train_loss: 1.5136e-03	valid_loss: 1.2280e-01	min_Loss: 9.0234e-02	consumued_time: 8.8587e-02(mins)	No imp. in 360 epochs
+Epoch [970/10000000], Step [1/0], train_loss: 2.3881e-03	valid_loss: 1.1791e-01	min_Loss: 9.0234e-02	consumued_time: 8.9175e-02(mins)	No imp. in 370 epochs
+Epoch [980/10000000], Step [1/0], train_loss: 1.5185e-03	valid_loss: 1.2047e-01	min_Loss: 9.0234e-02	consumued_time: 8.9765e-02(mins)	No imp. in 380 epochs
+Epoch [990/10000000], Step [1/0], train_loss: 1.5203e-03	valid_loss: 1.2225e-01	min_Loss: 9.0234e-02	consumued_time: 9.0353e-02(mins)	No imp. in 390 epochs
+Epoch [1000/10000000], Step [1/0], train_loss: 1.4572e-03	valid_loss: 1.2469e-01	min_Loss: 9.0234e-02	consumued_time: 9.0960e-02(mins)	No imp. in 400 epochs
+Epoch [1010/10000000], Step [1/0], train_loss: 1.4076e-03	valid_loss: 1.2633e-01	min_Loss: 9.0234e-02	consumued_time: 9.1631e-02(mins)	No imp. in 410 epochs
+Epoch [1020/10000000], Step [1/0], train_loss: 1.3794e-03	valid_loss: 1.2728e-01	min_Loss: 9.0234e-02	consumued_time: 9.2220e-02(mins)	No imp. in 420 epochs
+Epoch [1030/10000000], Step [1/0], train_loss: 1.3571e-03	valid_loss: 1.2793e-01	min_Loss: 9.0234e-02	consumued_time: 9.2813e-02(mins)	No imp. in 430 epochs
+Epoch [1040/10000000], Step [1/0], train_loss: 1.3359e-03	valid_loss: 1.2861e-01	min_Loss: 9.0234e-02	consumued_time: 9.3403e-02(mins)	No imp. in 440 epochs
+Epoch [1050/10000000], Step [1/0], train_loss: 1.3155e-03	valid_loss: 1.2942e-01	min_Loss: 9.0234e-02	consumued_time: 9.3996e-02(mins)	No imp. in 450 epochs
+Epoch [1060/10000000], Step [1/0], train_loss: 1.2964e-03	valid_loss: 1.3022e-01	min_Loss: 9.0234e-02	consumued_time: 9.4584e-02(mins)	No imp. in 460 epochs
+Epoch [1070/10000000], Step [1/0], train_loss: 1.2775e-03	valid_loss: 1.3078e-01	min_Loss: 9.0234e-02	consumued_time: 9.5181e-02(mins)	No imp. in 470 epochs
+Epoch [1080/10000000], Step [1/0], train_loss: 1.2590e-03	valid_loss: 1.3144e-01	min_Loss: 9.0234e-02	consumued_time: 9.5789e-02(mins)	No imp. in 480 epochs
+Epoch [1090/10000000], Step [1/0], train_loss: 1.2409e-03	valid_loss: 1.3205e-01	min_Loss: 9.0234e-02	consumued_time: 9.6383e-02(mins)	No imp. in 490 epochs
+Epoch [1100/10000000], Step [1/0], train_loss: 1.2232e-03	valid_loss: 1.3270e-01	min_Loss: 9.0234e-02	consumued_time: 9.6957e-02(mins)	No imp. in 500 epochs
+Epoch [1110/10000000], Step [1/0], train_loss: 1.2059e-03	valid_loss: 1.3333e-01	min_Loss: 9.0234e-02	consumued_time: 9.7528e-02(mins)	No imp. in 510 epochs
+Epoch [1120/10000000], Step [1/0], train_loss: 1.1899e-03	valid_loss: 1.3423e-01	min_Loss: 9.0234e-02	consumued_time: 9.8107e-02(mins)	No imp. in 520 epochs
+Epoch [1130/10000000], Step [1/0], train_loss: 1.4260e-03	valid_loss: 1.4035e-01	min_Loss: 9.0234e-02	consumued_time: 9.8677e-02(mins)	No imp. in 530 epochs
+Epoch [1140/10000000], Step [1/0], train_loss: 1.7433e-03	valid_loss: 1.2818e-01	min_Loss: 9.0234e-02	consumued_time: 9.9249e-02(mins)	No imp. in 540 epochs
+Epoch [1150/10000000], Step [1/0], train_loss: 1.2889e-03	valid_loss: 1.3210e-01	min_Loss: 9.0234e-02	consumued_time: 9.9860e-02(mins)	No imp. in 550 epochs
+Epoch [1160/10000000], Step [1/0], train_loss: 1.1305e-03	valid_loss: 1.3567e-01	min_Loss: 9.0234e-02	consumued_time: 1.0044e-01(mins)	No imp. in 560 epochs
+Epoch [1170/10000000], Step [1/0], train_loss: 1.1270e-03	valid_loss: 1.3670e-01	min_Loss: 9.0234e-02	consumued_time: 1.0102e-01(mins)	No imp. in 570 epochs
+Epoch [1180/10000000], Step [1/0], train_loss: 1.1093e-03	valid_loss: 1.3681e-01	min_Loss: 9.0234e-02	consumued_time: 1.0159e-01(mins)	No imp. in 580 epochs
+Epoch [1190/10000000], Step [1/0], train_loss: 1.0898e-03	valid_loss: 1.3703e-01	min_Loss: 9.0234e-02	consumued_time: 1.0215e-01(mins)	No imp. in 590 epochs
+Epoch [1200/10000000], Step [1/0], train_loss: 1.0740e-03	valid_loss: 1.3752e-01	min_Loss: 9.0234e-02	consumued_time: 1.0277e-01(mins)	No imp. in 600 epochs
+Epoch [1210/10000000], Step [1/0], train_loss: 1.0597e-03	valid_loss: 1.3811e-01	min_Loss: 9.0234e-02	consumued_time: 1.0337e-01(mins)	No imp. in 610 epochs
+Epoch [1220/10000000], Step [1/0], train_loss: 1.0461e-03	valid_loss: 1.3864e-01	min_Loss: 9.0234e-02	consumued_time: 1.0395e-01(mins)	No imp. in 620 epochs
+Epoch [1230/10000000], Step [1/0], train_loss: 1.0332e-03	valid_loss: 1.3917e-01	min_Loss: 9.0234e-02	consumued_time: 1.0455e-01(mins)	No imp. in 630 epochs
+Epoch [1240/10000000], Step [1/0], train_loss: 1.0206e-03	valid_loss: 1.3977e-01	min_Loss: 9.0234e-02	consumued_time: 1.0513e-01(mins)	No imp. in 640 epochs
+Epoch [1250/10000000], Step [1/0], train_loss: 1.0083e-03	valid_loss: 1.4047e-01	min_Loss: 9.0234e-02	consumued_time: 1.0572e-01(mins)	No imp. in 650 epochs
+Epoch [1260/10000000], Step [1/0], train_loss: 9.9628e-04	valid_loss: 1.4107e-01	min_Loss: 9.0234e-02	consumued_time: 1.0633e-01(mins)	No imp. in 660 epochs
+Epoch [1270/10000000], Step [1/0], train_loss: 9.8459e-04	valid_loss: 1.4171e-01	min_Loss: 9.0234e-02	consumued_time: 1.0692e-01(mins)	No imp. in 670 epochs
+Epoch [1280/10000000], Step [1/0], train_loss: 9.7318e-04	valid_loss: 1.4234e-01	min_Loss: 9.0234e-02	consumued_time: 1.0751e-01(mins)	No imp. in 680 epochs
+Epoch [1290/10000000], Step [1/0], train_loss: 9.6205e-04	valid_loss: 1.4298e-01	min_Loss: 9.0234e-02	consumued_time: 1.0810e-01(mins)	No imp. in 690 epochs
+Epoch [1300/10000000], Step [1/0], train_loss: 9.5117e-04	valid_loss: 1.4363e-01	min_Loss: 9.0234e-02	consumued_time: 1.0869e-01(mins)	No imp. in 700 epochs
+Epoch [1310/10000000], Step [1/0], train_loss: 9.4056e-04	valid_loss: 1.4429e-01	min_Loss: 9.0234e-02	consumued_time: 1.0928e-01(mins)	No imp. in 710 epochs
+Epoch [1320/10000000], Step [1/0], train_loss: 9.3131e-04	valid_loss: 1.4535e-01	min_Loss: 9.0234e-02	consumued_time: 1.0987e-01(mins)	No imp. in 720 epochs
+Epoch [1330/10000000], Step [1/0], train_loss: 1.5836e-03	valid_loss: 1.5667e-01	min_Loss: 9.0234e-02	consumued_time: 1.1046e-01(mins)	No imp. in 730 epochs
+Epoch [1340/10000000], Step [1/0], train_loss: 1.0351e-03	valid_loss: 1.4517e-01	min_Loss: 9.0234e-02	consumued_time: 1.1105e-01(mins)	No imp. in 740 epochs
+Epoch [1350/10000000], Step [1/0], train_loss: 1.1471e-03	valid_loss: 1.4689e-01	min_Loss: 9.0234e-02	consumued_time: 1.1164e-01(mins)	No imp. in 750 epochs
+Epoch [1360/10000000], Step [1/0], train_loss: 9.0439e-04	valid_loss: 1.4231e-01	min_Loss: 9.0234e-02	consumued_time: 1.1224e-01(mins)	No imp. in 760 epochs
+Epoch [1370/10000000], Step [1/0], train_loss: 9.0680e-04	valid_loss: 1.4580e-01	min_Loss: 9.0234e-02	consumued_time: 1.1283e-01(mins)	No imp. in 770 epochs
+Epoch [1380/10000000], Step [1/0], train_loss: 8.8855e-04	valid_loss: 1.4762e-01	min_Loss: 9.0234e-02	consumued_time: 1.1342e-01(mins)	No imp. in 780 epochs
+Epoch [1390/10000000], Step [1/0], train_loss: 8.7264e-04	valid_loss: 1.4719e-01	min_Loss: 9.0234e-02	consumued_time: 1.1400e-01(mins)	No imp. in 790 epochs
+Epoch [1400/10000000], Step [1/0], train_loss: 8.6420e-04	valid_loss: 1.4784e-01	min_Loss: 9.0234e-02	consumued_time: 1.1459e-01(mins)	No imp. in 800 epochs
+Epoch [1410/10000000], Step [1/0], train_loss: 8.5554e-04	valid_loss: 1.4886e-01	min_Loss: 9.0234e-02	consumued_time: 1.1518e-01(mins)	No imp. in 810 epochs
+Epoch [1420/10000000], Step [1/0], train_loss: 8.4706e-04	valid_loss: 1.4969e-01	min_Loss: 9.0234e-02	consumued_time: 1.1577e-01(mins)	No imp. in 820 epochs
+Epoch [1430/10000000], Step [1/0], train_loss: 8.3914e-04	valid_loss: 1.5037e-01	min_Loss: 9.0234e-02	consumued_time: 1.1637e-01(mins)	No imp. in 830 epochs
+Epoch [1440/10000000], Step [1/0], train_loss: 8.3137e-04	valid_loss: 1.5099e-01	min_Loss: 9.0234e-02	consumued_time: 1.1697e-01(mins)	No imp. in 840 epochs
+Epoch [1450/10000000], Step [1/0], train_loss: 8.2372e-04	valid_loss: 1.5159e-01	min_Loss: 9.0234e-02	consumued_time: 1.1758e-01(mins)	No imp. in 850 epochs
+Epoch [1460/10000000], Step [1/0], train_loss: 8.1619e-04	valid_loss: 1.5217e-01	min_Loss: 9.0234e-02	consumued_time: 1.1818e-01(mins)	No imp. in 860 epochs
+Epoch [1470/10000000], Step [1/0], train_loss: 8.0877e-04	valid_loss: 1.5275e-01	min_Loss: 9.0234e-02	consumued_time: 1.1877e-01(mins)	No imp. in 870 epochs
+Epoch [1480/10000000], Step [1/0], train_loss: 8.0147e-04	valid_loss: 1.5333e-01	min_Loss: 9.0234e-02	consumued_time: 1.1938e-01(mins)	No imp. in 880 epochs
+Epoch [1490/10000000], Step [1/0], train_loss: 7.9426e-04	valid_loss: 1.5391e-01	min_Loss: 9.0234e-02	consumued_time: 1.1997e-01(mins)	No imp. in 890 epochs
+Epoch [1500/10000000], Step [1/0], train_loss: 7.8716e-04	valid_loss: 1.5448e-01	min_Loss: 9.0234e-02	consumued_time: 1.2057e-01(mins)	No imp. in 900 epochs
+Epoch [1510/10000000], Step [1/0], train_loss: 7.8015e-04	valid_loss: 1.5504e-01	min_Loss: 9.0234e-02	consumued_time: 1.2116e-01(mins)	No imp. in 910 epochs
+Epoch [1520/10000000], Step [1/0], train_loss: 7.7323e-04	valid_loss: 1.5560e-01	min_Loss: 9.0234e-02	consumued_time: 1.2175e-01(mins)	No imp. in 920 epochs
+Epoch [1530/10000000], Step [1/0], train_loss: 7.6641e-04	valid_loss: 1.5615e-01	min_Loss: 9.0234e-02	consumued_time: 1.2235e-01(mins)	No imp. in 930 epochs
+Epoch [1540/10000000], Step [1/0], train_loss: 7.5967e-04	valid_loss: 1.5669e-01	min_Loss: 9.0234e-02	consumued_time: 1.2293e-01(mins)	No imp. in 940 epochs
+Epoch [1550/10000000], Step [1/0], train_loss: 7.5301e-04	valid_loss: 1.5723e-01	min_Loss: 9.0234e-02	consumued_time: 1.2350e-01(mins)	No imp. in 950 epochs
+Epoch [1560/10000000], Step [1/0], train_loss: 7.4644e-04	valid_loss: 1.5776e-01	min_Loss: 9.0234e-02	consumued_time: 1.2408e-01(mins)	No imp. in 960 epochs
+Epoch [1570/10000000], Step [1/0], train_loss: 7.3994e-04	valid_loss: 1.5828e-01	min_Loss: 9.0234e-02	consumued_time: 1.2465e-01(mins)	No imp. in 970 epochs
+Epoch [1580/10000000], Step [1/0], train_loss: 7.3358e-04	valid_loss: 1.5869e-01	min_Loss: 9.0234e-02	consumued_time: 1.2530e-01(mins)	No imp. in 980 epochs
+Epoch [1590/10000000], Step [1/0], train_loss: 7.5024e-04	valid_loss: 1.5704e-01	min_Loss: 9.0234e-02	consumued_time: 1.2588e-01(mins)	No imp. in 990 epochs
+Epoch [1600/10000000], Step [1/0], train_loss: 2.0939e-03	valid_loss: 1.5187e-01	min_Loss: 9.0234e-02	consumued_time: 1.2648e-01(mins)	No imp. in 1000 epochs
